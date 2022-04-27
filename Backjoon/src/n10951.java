@@ -3,8 +3,9 @@ import java.util.Scanner;
 public class n10951 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
+
+		// int형 숫자 하나를 공백, 탭, 줄바꿈 기준으로 입력 받음
 
 		int size = sc.nextInt();
 		int[] list = new int[size];
