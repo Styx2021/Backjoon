@@ -27,5 +27,7 @@ public class n8958 {
 			System.out.println(sum);
 			sum = 0;
 		}
+
+		sc.close();
 	}
 }

@@ -15,6 +15,8 @@ public class n11720 {
 			result += Character.getNumericValue(s.charAt(i));
 		}
 		System.out.println(result);
+
+		sc.close();
 	}
 
 }

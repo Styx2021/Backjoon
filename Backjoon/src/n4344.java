@@ -26,5 +26,6 @@ public class n4344 {
 			// 출력 서식을 지정한 경우 println을 사용할 수 없음
 			System.out.printf("%.3f%s\n", (count / s_count) * 100, "%");
 		}
+		sc.close();
 	}
 }

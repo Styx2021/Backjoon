@@ -29,6 +29,8 @@ public class n1065 {
 		}
 
 		System.out.println(count);
+
+		sc.close();
 	}
 
 }

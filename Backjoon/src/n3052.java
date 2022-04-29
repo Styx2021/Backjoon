@@ -27,7 +27,7 @@ public class n3052 {
 		}
 
 		System.out.println(count);
-
+		sc.close();
 	}
 
 }

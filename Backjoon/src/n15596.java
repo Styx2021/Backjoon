@@ -20,6 +20,8 @@ public class n15596 {
 			a[i] = sc.nextInt();
 		}
 		System.out.println(sum(a));
+
+		sc.close();
 	}
 
 }

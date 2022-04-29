@@ -21,5 +21,6 @@ public class n10951 {
 				min = list[i];
 		}
 		System.out.println(min + " " + max);
+		sc.close();
 	}
 }

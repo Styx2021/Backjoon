@@ -23,6 +23,8 @@ public class n1546 {
 			sum += list[i];
 		}
 		System.out.println(sum / size);
+
+		sc.close();
 	}
 
 }

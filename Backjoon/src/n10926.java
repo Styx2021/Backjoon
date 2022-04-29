@@ -10,6 +10,7 @@ public class n10926 {
 		String name = sc.nextLine();
 		System.out.print(name + "??!");
 
+		sc.close();
 	}
 
 }

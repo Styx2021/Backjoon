@@ -10,6 +10,7 @@ public class n11654 {
 
 		System.out.println((int) in);
 
+		sc.close();
 	}
 
 }

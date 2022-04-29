@@ -21,6 +21,8 @@ public class n2577 {
 		for (int i : result) {
 			System.out.println(i);
 		}
+
+		sc.close();
 	}
 
 }
