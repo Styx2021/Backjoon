@@ -4,18 +4,11 @@ import java.io.InputStreamReader;
 
 public class n2447 {
 	// 못푼 문제
-	public static void star(int n) {
 
-		if (n != 0) {
-			if (n % 3 == 1) {
-				System.out.println("*");
-				star(n - 1);
-			}
-		}
-//			}else if (){
-//				
-//			}
-//		}
+	public static void star(char[][] s, int n) {
+		if (n == 0)
+			return;
+
 	}
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
@@ -23,7 +16,9 @@ public class n2447 {
 
 		int n = Integer.parseInt(br.readLine());
 
-		star(n * n);
+		char s[][] = new char[n][n];
+
+		star(s, n);
 	}
 
 }
