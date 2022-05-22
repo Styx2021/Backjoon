@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
+import java.util.TreeSet;
 
 public class Gomgom_B {
 
@@ -9,19 +9,16 @@ public class Gomgom_B {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		int n = Integer.parseInt(br.readLine());
-		String list[] = new String[n];
+		TreeSet<String> set = new TreeSet<>();
+
 		int cnt = 0;
-
 		for (int i = 0; i < n; ++i) {
-			String t = br.readLine();
-			if (t.equals("ENTER"))
-				list = new String[n];
-			else if (!Arrays.toString(list).contains(t)) {
+			String element = br.readLine();
+			if (element.equals("ENTER")) {
+				set.clear();
+			} else if (set.add(element))
 				cnt++;
-				list[i] = t;
-			}
 		}
-
 		System.out.println(cnt);
 	}
 
